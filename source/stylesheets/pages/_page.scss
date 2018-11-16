@@ -6,21 +6,21 @@
 
 
 .image {
-  margin-top: 12%;
+  // margin-top: 12%;
   width: 482px;
   height: 450px;
   object-fit: cover;
 }
 
 .image-praktijk {
-  margin-top: 23.5%;
+  // margin-top: 23.5%;
   width: 482px;
   height: 450px;
   object-fit: cover;
 }
 
 .image-inge {
-  margin-top: 23.5%;
+  // margin-top: 23.5%;
   // margin-left: 10%;
   width: 482px;
   height: 450px;
@@ -29,14 +29,14 @@
 }
 
 .image-schaap {
-  margin-top: 7.5%;
+  // margin-top: 7.5%;
   width: 482px;
   height: 450px;
   object-fit: cover;
 }
 
 .image-psychotherapie {
-  margin-top: 23.5%;
+  // margin-top: 23.5%;
   // margin-left: 10%;
   width: 482px;
   height: 450px;
@@ -62,4 +62,33 @@
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 1%;
+}
+
+.mobile-page {
+  text-align: center;
+}
+.mobile-page-text {
+  font-family: $headers-font;
+  margin: 2%;
+}
+
+.mobile-page-image {
+
+  max-width: 72%;
+  min-width: 10%;
+  max-height: 50%;
+  margin: 2%;
+}
+
+
+.my-page-header{
+  margin-left: 6%;
+
+}
+.voor-wie-header {
+  margin-left: 8.5%;
+}
+
+.adoptie-header {
+  margin-left: 11%;
 }
