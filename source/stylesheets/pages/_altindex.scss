@@ -1,0 +1,45 @@
+.banner-text {
+  color: white;
+  text-align: center;
+  width: 100%;
+  h1 {
+    font-size: 80px !important;
+    font-family: $headers-font;
+  }
+}
+
+.home-body {
+  height: 200vh;
+  background-color: white;
+}
+
+.grey-background{
+  text-align: left;
+  color: $gray;
+  background-color: $light-gray;
+  padding: 15px;
+}
+
+.line {
+  background-color: $banner-grey;
+}
+
+.line2{
+  background-color: #6f536e;
+}
+
+.page-text {
+  padding-left: 15px;
+  padding-left: 15px;
+  p{
+    font-size: 24px;
+  }
+}
+
+.page-text-half {
+  padding-left: 15px;
+  padding-left: 15px;
+  p{
+    font-size: 24px;
+  }
+}

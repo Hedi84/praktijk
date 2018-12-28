@@ -1,0 +1,19 @@
+.pretty-menu {
+  background-color: $banner-grey;
+  padding: 10px;
+}
+.pretty-menu-wide {
+  width: 250px !important;
+  background-color: $banner-grey;
+  padding: 10px;
+}
+
+.pretty-link {
+  text-decoration: none;
+  color: $light-gray;
+}
+
+.pretty-link:hover {
+  text-decoration: none;
+  color: $grey-pink;
+}

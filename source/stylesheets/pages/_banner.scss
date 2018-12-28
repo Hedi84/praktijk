@@ -1,14 +1,14 @@
 
 .banner {
-  color: white;
+  color: $gray;
   text-align: center;
    /* if you have a 70px navbar => height: calc(100vh - 70px); */
-  height: 35vh;
+  height: 70vh;
   background-size: cover !important;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-position: top center;
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
+  background-position: center center;
   // background-image: asset-url("spade.jpeg");
 
 }
@@ -17,9 +17,10 @@
   padding: 0;
 }
 
-.banner-margin {
-  margin-bottom: 25%;
-}
+// .banner-margin {
+//   margin-bottom: 25%;
+// }
+
 
 .banner-content h1 {
   // margin-top: 400px;
@@ -53,4 +54,30 @@
   font-family: 'Noto Sans', sans-serif;
   color: $light-gray;
   // margin-bottom: 30px;
+}
+
+.banner-button {
+  margin-top: 20%;
+}
+
+
+.small-banner {
+  h1{
+    color: $gray;
+  }
+  width: 100%;
+  text-align: center;
+  height: 30vh;
+  background-size: cover !important;
+  background-position: center center;
+
+}
+
+.medium-photo {
+  width: 50%;
+  padding: 20px;
+  height: 70vh;
+  background-size: cover !important;
+  background-position: center center;
+
 }
