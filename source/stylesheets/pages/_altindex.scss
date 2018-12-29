@@ -8,16 +8,26 @@
   }
 }
 
+.addmargin {
+  margin-top: 133px !important;
+}
 .home-body {
   height: 200vh;
   background-color: white;
 }
 
-.grey-background{
-  text-align: left;
-  color: $gray;
+// .grey-background{
+//   text-align: left;
+//   color: $gray;
+//   background-color: $light-gray;
+//   padding-left: 35px;
+//   padding-right: 35px;
+// }
+
+.home-container {
+  padding-left: 35px !important;
+  padding-right: 35px !important;
   background-color: $light-gray;
-  padding: 15px;
 }
 
 .line {
@@ -28,7 +38,11 @@
   background-color: #6f536e;
 }
 
+.no-margin {
+  margin: 0 !important;
+}
 .page-text {
+  margin-top: 25px;
   padding-left: 15px;
   padding-left: 15px;
   p{
@@ -37,8 +51,9 @@
 }
 
 .page-text-half {
-  padding-left: 15px;
-  padding-left: 15px;
+  // width: 50%;
+  padding-left: 25px;
+  padding-right: 15px;
   p{
     font-size: 24px;
   }
