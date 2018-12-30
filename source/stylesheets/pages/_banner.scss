@@ -75,7 +75,7 @@
 }
 
 .medium-photo {
-  width: 50%;
+  // width: 50%;
   padding: 20px;
   height: 70vh;
   background-size: cover !important;
@@ -83,21 +83,58 @@
 
 }
 
-.small-photo {
-  width: 30%;
-  padding: 20px;
-  height: 40vh;
-  margin-left: 25px;
+.map-photo {
+  width: 550px;
+  // padding: 20px;
+  margin-top: 30px;
+  height: 70vh;
   background-size: cover !important;
   background-position: center center;
 
 }
 
+.small-photo {
+  width: 400px;
+  display: block;
+  text-align: center;
+  height: 50vh;
+  margin: 10px auto 15px 30px;
+  background-size: cover !important;
+  background-position: center center;
+
+}
+
+.block {
+  display: block;
+  margin: auto !important;
+}
+
 .odd-photo {
-  margin-top: 15px;
   width: 550px;
   // padding: 20px;
-  height: 550px;
+  height: 500px;
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
+  margin: 0 auto;
+  background-size: cover !important;
+  background-position: top center !important;
+}
+
+.handen-image {
+  text-align: center;
+  margin-top: 50px !important;
+  margin: 0 auto;
+  width: 550px;
+  height: 800px;
+  background-size: contain !important;
+  // background-position: top center !important;
+}
+
+.bomen-image {
+  margin-top: 30px !important;
+  margin: 0 auto;
+  width: 500px;
+  height: 600px;
   // margin-left: 25px;
   background-size: cover !important;
   background-position: top center !important;

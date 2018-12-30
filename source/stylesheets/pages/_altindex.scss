@@ -25,8 +25,8 @@
 // }
 
 .home-container {
-  padding-left: 35px !important;
-  padding-right: 35px !important;
+  padding-left: 50px !important;
+  padding-right: 50px !important;
   background-color: $light-gray;
 }
 
@@ -54,6 +54,15 @@
   // width: 50%;
   padding-left: 25px;
   padding-right: 15px;
+  p{
+    font-size: 24px;
+  }
+}
+
+.page-text-half-right {
+  // width: 57%;
+  // padding-left: 50px;
+  // padding-right: 15px;
   p{
     font-size: 24px;
   }
